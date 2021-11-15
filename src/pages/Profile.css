@@ -9,7 +9,6 @@
     font-size: 24px;
     font-weight: 700;
     color:rgb(255, 255, 255);
-
   }
   
   .containcard {
@@ -65,7 +64,7 @@
     margin-bottom: 8px;
   }
   
-  .student {
+  .mahasiswa {
     padding: 3px 6px;
     background-color: rgb(76, 108, 253);
     color: rgb(255, 255, 255);
@@ -74,7 +73,7 @@
     margin-bottom: 20px;
   }
   
-  .location {
+  .info {
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -85,7 +84,7 @@
     color: rgb(19, 18, 18);
   }
   
-  .info {
+  .space {
     display: flex;
     align-items: center;
     gap: 15px;

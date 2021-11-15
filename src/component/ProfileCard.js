@@ -15,34 +15,28 @@ function CardProfile({ item }) {
         <img src={item.img} alt="" />
       </div>
       <p className="nama">{item.nama}</p>
-      <div class="student">Mahasiswa</div>
+      <div class="mahasiswa">Mahasiswa</div>
       <div class="striped-border"></div>
-      <div className="location">
-        
-        <p className="info">
+      <div className="info">
+        <p className="space">
           <FaHouseUser size="20" color="blue" />
           Alamat
         </p>
         <p>{item.address}</p>
-     
       </div>
-      <div className="location">
-      
-        <p className="info">
+      <div className="info">
+        <p className="space">
           <FaIdCard size="20" color="blue" />
           NIM
         </p>
-        <p>{item.nim}</p>
-        
+        <p>{item.nim}</p> 
       </div>
-      <div className="location">
-        
-        <p className="info">
+      <div className="info">
+        <p className="space">
           <FaGithubSquare size="20" color="blue" />
           Github
         </p>
         <p>{item.git}</p>
-      
       </div>
     </div>
     </div>
