@@ -1,0 +1,94 @@
+.containprofile {
+    color: rgb(19, 18, 18);
+    min-height: 100vh;
+  }
+  
+  .containprofile > h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+
+  }
+  
+  .containcard {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .topmenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px;
+  }
+  
+  .cardprofile {
+    margin-bottom: 100px;
+    background: rgb(240, 227, 112);
+    padding-top: 85px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .pp {
+    position: absolute;
+    top: -45px;
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .pp img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .nama {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .student {
+    padding: 3px 6px;
+    background-color: rgb(76, 108, 253);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .location {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(19, 18, 18);
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+ .striped-border { 
+    border: 1px dashed #000;
+    width: 90%; 
+    margin: auto; 
+    margin-top: -10px; 
+    margin-bottom: 10px;
+    }
