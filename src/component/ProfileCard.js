@@ -6,6 +6,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 function CardProfile({ item }) {
   return (
+    <div className="margin">
     <div className="cardprofile">
       <div className="topmenu">
         <FaStream className="dots" size="25" color="gray" />
@@ -44,6 +45,8 @@ function CardProfile({ item }) {
       
       </div>
     </div>
+    </div>
+
   );
 }
 
